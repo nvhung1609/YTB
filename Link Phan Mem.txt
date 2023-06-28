@@ -1,4 +1,4 @@
-Push code git:
+Push code github:
 git init
 git remote add origin https://github.com/nvhung1609/MSP430.git
 git branch -M main
