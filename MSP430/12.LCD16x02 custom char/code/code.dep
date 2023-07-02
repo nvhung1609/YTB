@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>880130347</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\lcd.c</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\code.map</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\lcd.h</file>
+            <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\code.ulp</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\code.hex</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\code.pbd</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 21 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 7 9 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 9 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 7 9 23 6 8 11 13 15 25 0 12 22 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 9 13 8 11 6 20 22 7 23 12 25 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\code.hex</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 3 17 16 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
