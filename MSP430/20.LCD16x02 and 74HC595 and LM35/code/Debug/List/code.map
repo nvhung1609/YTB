@@ -2,18 +2,26 @@
 #                                                                              #
 #      IAR Universal Linker V6.5.1.95                                          #
 #                                                                              #
-#           Link time     =  05/Jul/2023  15:38:38                             #
+#           Link time     =  04/Nov/2023  20:43:22                             #
 #           Target CPU    =  MSP430                                            #
-#           List file     =  C:\Users\PC\Desktop\code\Debug\List\code.map      #
-#           Output file 1 =  C:\Users\PC\Desktop\code\Debug\Exe\code.hex       #
+#           List file     =  "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC5 #
+#                            95 and LM35\code\Debug\List\code.map"             #
+#           Output file 1 =  "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC5 #
+#                            95 and LM35\code\Debug\Exe\code.hex"              #
 #                            Format: intel-extended                            #
-#           Command line  =  -f C:\Users\PC\AppData\Local\Temp\EWA554.tmp      #
-#                            (C:\Users\PC\Desktop\code\Debug\Obj\lcd595.r43    #
-#                            C:\Users\PC\Desktop\code\Debug\Obj\lm35.r43       #
-#                            C:\Users\PC\Desktop\code\Debug\Obj\main.r43 -o    #
-#                            C:\Users\PC\Desktop\code\Debug\Exe\code.hex       #
+#           Command line  =  -f C:\Users\PC\AppData\Local\Temp\EW49D9.tmp      #
+#                            ("D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC #
+#                            595 and LM35\code\Debug\Obj\lcd595.r43"           #
+#                            "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC5 #
+#                            95 and LM35\code\Debug\Obj\lm35.r43"              #
+#                            "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC5 #
+#                            95 and LM35\code\Debug\Obj\main.r43"              #
+#                            -o                                                #
+#                            "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC5 #
+#                            95 and LM35\code\Debug\Exe\code.hex"              #
 #                            -Fintel-extended -l                               #
-#                            C:\Users\PC\Desktop\code\Debug\List\code.map      #
+#                            "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC5 #
+#                            95 and LM35\code\Debug\List\code.map"             #
 #                            -xms                                              #
 #                            "-IC:\Program Files (x86)\IAR Systems\Embedded Wo #
 #                            rkbench 8.0\430\LIB\"                             #
@@ -109,7 +117,7 @@ Absolute parts
            _STACK_SIZE             0050 
     *************************************************************************
 
-  FILE NAME : C:\Users\PC\Desktop\code\Debug\Obj\lcd595.r43
+  FILE NAME : D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC595 and LM35\code\Debug\Obj\lcd595.r43
   PROGRAM MODULE, NAME : lcd595
 
   SEGMENTS IN THE MODULE
@@ -214,7 +222,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Users\PC\Desktop\code\Debug\Obj\lm35.r43
+  FILE NAME : D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC595 and LM35\code\Debug\Obj\lm35.r43
   PROGRAM MODULE, NAME : lm35
 
   SEGMENTS IN THE MODULE
@@ -265,7 +273,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Users\PC\Desktop\code\Debug\Obj\main.r43
+  FILE NAME : D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC595 and LM35\code\Debug\Obj\main.r43
   PROGRAM MODULE, NAME : main
 
   SEGMENTS IN THE MODULE

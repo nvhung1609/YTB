@@ -1,0 +1,68 @@
+
+**** Build of configuration Debug for project test ****
+
+"C:\\ti\\ccs1240\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../blink.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccs1240/ccs/ccs_base/msp430/include" --include_path="C:/Users/PC/Desktop/MSP430KIT/CCS/test" --include_path="C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 12: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../blink.c"
+ 
+Building target: "test.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"test.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccs1240/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "test.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "test.out"
+ 
+Building secondary target: "test.txt"
+Invoking: MSP430 Hex Utility
+"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "test.txt"  "test.out" 
+Translating to TI-TXT format...
+   "test.out" .text ==> .text
+   "test.out" $fill000 ==> $fill000
+   "test.out" TRAPINT ==> TRAPINT
+   "test.out" PORT1 ==> PORT1
+   "test.out" PORT2 ==> PORT2
+   "test.out" ADC10 ==> ADC10
+   "test.out" USCIAB0TX ==> USCIAB0TX
+   "test.out" USCIAB0RX ==> USCIAB0RX
+   "test.out" TIMER0_A1 ==> TIMER0_A1
+   "test.out" TIMER0_A0 ==> TIMER0_A0
+   "test.out" WDT ==> WDT
+   "test.out" COMPARATORA ==> COMPARATORA
+   "test.out" TIMER1_A1 ==> TIMER1_A1
+   "test.out" TIMER1_A0 ==> TIMER1_A0
+   "test.out" NMI ==> NMI
+   "test.out" .reset ==> .reset
+Finished building secondary target: "test.txt"
+ 
+C:\Users\PC\Desktop\MSP430KIT\BSLDEMO-2.01\BSLDEMO-2.01c.exe -cCOM3 -m1 -ijevpr test.txt
+MSP430 Bootstrap Loader Communication Program (Version 2.01c)
+Number of mass erase cycles set to 1.
+Mass Erase...
+Transmit standard password...
+BSL version: 2.03 - Family member: 2553 - Process: 0060
+Erase Check by file "test.txt"...
+Check starting at c000, 86 bytes... Error: 0
+Check starting at ffde, 4 bytes... Error: 0
+Check starting at ffe4, 4 bytes... Error: 0
+Check starting at ffea, 22 bytes... Error: 0
+ 
+ 
+Program "test.txt"...
+Program starting at c000, 86 bytes... Error: 0
+Program starting at ffde, 4 bytes... Error: 0
+Program starting at ffe4, 4 bytes... Error: 0
+Program starting at ffea, 22 bytes... Error: 0
+ 
+ 
+116 bytes programmed.
+Verify... already done during programming.
+Programming completed.Prog/Verify: 0.6 sec - Over all: 1.2 sec
+ 
+
+**** Build Finished ****

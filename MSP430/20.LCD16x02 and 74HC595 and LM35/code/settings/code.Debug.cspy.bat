@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\PC\Desktop\code\settings\code.Debug.general.xcl" --backend -f "C:\Users\PC\Desktop\code\settings\code.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC595 and LM35\code\settings\code.Debug.general.xcl" --backend -f "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC595 and LM35\code\settings\code.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\PC\Desktop\code\settings\code.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\PC\Desktop\code\settings\code.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC595 and LM35\code\settings\code.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\VIDEO\github_YTB\MSP430\20.LCD16x02 and 74HC595 and LM35\code\settings\code.Debug.driver.xcl" 
 
 @echo off 
 :end
