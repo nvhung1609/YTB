@@ -1,0 +1,14 @@
+Push code github:
+git config --global user.email "facekero@gmail.com"
+
+git init
+git remote add origin https://github.com/nvhung1609/MSP430.git
+git branch -M main
+git status
+git add .
+git commit -m "initial"
+git push origin main
+
+Altium: https: https://taiwebs.com/windows/download-altium-designer-625.html
+Proteus 8.15: https://isangtao.com/download-proteus-8-15-full-huong-dan-cai-dat/
+SolidWorks 2021: https://phanmemgoc.vn/download-solidworks-2021
